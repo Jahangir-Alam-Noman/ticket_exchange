@@ -40,7 +40,7 @@ const Header = () => {
                 Sign Up
               </Link>
               <Link to='/contact' className='nav-link'>
-                Contact Us
+                Contact Uss
               </Link>
 
               {/*         <a className='nav-link' href='#'>
