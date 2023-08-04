@@ -1,0 +1,65 @@
+/**
+ * /* Home page css
+ *
+ * @format
+ */
+@import "./assets/css/Banner.css";
+@import "./assets/css/Ticket.css";
+@import "./assets/css/LeftMenu.css";
+@import "./assets/css/PopularEvents.css";
+@import "./assets/css/NewsFeed.css";
+
+/* Sign In Page */
+@import "./assets/css/SignIn.css";
+
+/* Sign Up page */
+@import "./assets/css/SignUp.css";
+
+/* Header added */
+@import "./assets/css/Header.css";
+
+/* Footer added */
+@import "./assets/css/Footer.css";
+
+/* Ticket Details */
+@import "./assets/css/TicketDetails.css";
+@import "./assets/css/MainTicketDetails.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
